@@ -1,0 +1,25 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "Learn react step by step",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riksphp/learn-react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Rishikesh Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riksphp/learn-react/issues"
+  },
+  "homepage": "https://github.com/riksphp/learn-react#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
