@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 /**
  * <div>
  *      <h1>Hello from react</h1>
@@ -20,9 +23,13 @@ const elementToBeAppended = React.createElement(React.Fragment, {}, [
   ),
   React.createElement("h2", { key: keyCount++ }, "This is heading 1"),
   React.createElement("ul", { key: keyCount++ }, [
-    React.createElement("li", { key: keyCount++ }, "ITEM 1"),
-    React.createElement("li", { key: keyCount++ }, "ITEM 2"),
-    React.createElement("li", { key: keyCount++ }, "ITEM 3"),
+    React.createElement(
+      "li",
+      { key: keyCount++ },
+      "ITEM 1 - changing text 🚀 "
+    ),
+    React.createElement("li", { key: keyCount++ }, "ITEM 2 😢 "),
+    React.createElement("li", { key: keyCount++ }, "ITEM 3 🙏 "),
   ]),
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
