@@ -4,6 +4,8 @@
   "description": "Learn react step by step",
   "bin": "lib/bin.js",
   "scripts": {
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
     "test": "jest"
   },
   "repository": {
